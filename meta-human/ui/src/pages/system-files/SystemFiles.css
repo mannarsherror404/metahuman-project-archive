@@ -1,0 +1,11 @@
+.system-files-page { padding: 60px 40px; }
+.system-files-hint { top: 640px; }
+
+@media (max-width: 600px) {
+  .system-files-page { padding: 132px 16px 24px; }
+  .system-files-stack {
+    transform: translateX(8px) scale(.64);
+    transform-origin: center top;
+  }
+  .system-files-hint { top: auto; bottom: 112px; }
+}

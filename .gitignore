@@ -1,0 +1,30 @@
+# Recreated local dependencies and build output
+**/node_modules/
+**/dist/
+**/venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# The two portraits used by the About page are approved for publication.
+# Keep the unused original photo local.
+meta-human/ui/src/assets/team/me-original.png
+
+# Research drafts remain local until reviewed for publication
+New/
+main paper/
+MetaHuman_IEEE_Report.tex
+MetaHuman_Technical_Report_v2.docx
+final_report.pdf
+
+# Older local copies; the three web-ready recordings live under public/progress/.
+/1.mp4
+/2.mp4
+/3.mp4
